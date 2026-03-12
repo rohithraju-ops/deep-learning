@@ -1,0 +1,14 @@
+dl-venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+projects/data/
+*.pth
+*.pt
+*.h5
+*.tar.gz
+*.gz
