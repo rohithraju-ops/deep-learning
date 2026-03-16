@@ -194,11 +194,11 @@ This is the **Constant Error Carousel (CEC)** — error can flow backwards throu
 
 ---
 
-### Paper equations → your code (direct mapping)
+### Paper equations → my code (direct mapping)
 
 The paper's equation (9) is the heart of the architecture:
 
-| Paper notation | Your code | What it does |
+| Paper notation | My code | What it does |
 |---|---|---|
 | `s_c(t) = s_c(t-1) + y^in * g(net_c)` | `c_next = f*c_prev + i*g` | Cell state update |
 | `y^c(t) = y^out * h(s_c(t))` | `h_next = o * tanh(c_next)` | Hidden state output |
